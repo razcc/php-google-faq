@@ -30,3 +30,16 @@ header ul li
 {
     padding-bottom: 20px;
 }
+
+/* MAIN */
+main
+{
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+main h2
+{
+    margin-bottom: 20px;
+}

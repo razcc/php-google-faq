@@ -87,6 +87,17 @@ $faq = [
         </div>
     </header>
 
+    <main>
+        <?php foreach ($faq as $elem) { ?>
+        <h2>
+            <?php echo $elem['domanda']; ?>
+        </h2>
+
+        <p>
+            <?php echo $elem['risposta']; ?>
+        </p>
+        <?php } ?>
+    </main>
 </body>
 
 </html>
